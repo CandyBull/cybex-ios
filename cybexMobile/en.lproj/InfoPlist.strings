@@ -15,4 +15,4 @@ NSContactsUsageDescription = "contacts";
 NSCalendarsUsageDescription = "calendars";
 NSLocationAlwaysUsageDescription = "location";
 NFCReaderUsageDescription = "NFC tag to read NDEF messages into the application";
-CFBundleDisplayName = "CybexDex";
+CFBundleDisplayName = "CandyBull";
