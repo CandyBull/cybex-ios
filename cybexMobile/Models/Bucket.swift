@@ -81,9 +81,9 @@ enum ChangeScope {
   func color() -> UIColor {
     switch self {
     case .greater:
-      return .turtleGreen
+      return .primaryGreen
     case .less:
-      return .reddish
+      return .primaryRed
     case .equal:
       return .coolGrey
     }

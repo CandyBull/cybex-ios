@@ -76,6 +76,7 @@ extension SettingDetailViewController: UITableViewDelegate, UITableViewDataSourc
                 cell.textLabel?.isHighlighted = false
             }
         }
+        cell.textLabel?.highlightedTextColor = UIColor.primary
         
         cell.accessoryView?.isHidden = !cell.textLabel!.isHighlighted
         

@@ -40,7 +40,7 @@ class Button: UIView {
 
     var gradientLayer: LinearGradientLayer = {
         let gradientLayer = LinearGradientLayer()
-        gradientLayer.colors = [UIColor.peach.cgColor, UIColor.maincolor.cgColor]
+        gradientLayer.colors = [UIColor.lightPrimary.cgColor, UIColor.primary.cgColor]
         return gradientLayer
     }()
 

@@ -1,9 +1,9 @@
 {
   "images" : [
     {
+      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "ic3.png",
-      "scale" : "1x"
+      "filename" : "ic3.png"
     },
     {
       "idiom" : "universal",
@@ -12,8 +12,8 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "ic3@3x.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "ic3@3x.png"
     }
   ],
   "info" : {

@@ -35,7 +35,7 @@ class TransferListCellView: UIView {
                         self.amount.textColor = ThemeManager.currentThemeIndex == 0 ? self.amount.theme1TitleColor : self.amount.theme2TitleColor
                     } else {
                         self.amount.text = "+" + self.amount.text!
-                        self.amount.textColor = UIColor.pastelOrange
+                        self.amount.textColor = UIColor.primary
                     }
                 }
             }

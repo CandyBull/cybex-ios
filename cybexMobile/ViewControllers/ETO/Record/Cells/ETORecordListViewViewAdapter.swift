@@ -31,7 +31,7 @@ extension ETORecordListViewView {
 //        statusLabel.text = model.reason.showTitle()
 //        let reason = (model.reason == .ok || statusLabel.text == R.string.localizable.eto_invalid_partly_sub.key.localized())
 //        statusLabel.theme_textColor = reason ?
-//            [UIColor.pastelOrange.hexString(true), UIColor.pastelOrange.hexString(true)] :
+//            [UIColor.primary.hexString(true), UIColor.primary.hexString(true)] :
 //            [UIColor.white.hexString(true), UIColor.darkTwo.hexString(true)]
     }
 }

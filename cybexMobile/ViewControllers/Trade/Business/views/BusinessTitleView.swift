@@ -117,7 +117,7 @@ extension BusinessTitleView: UITableViewDataSource, UITableViewDelegate {
             let tickers = self.reloadData {
             if let selectedIndex = self.selectedIndex, selectedIndex == indexPath.row && saveBaseIndex == currentBaseIndex {
                 cell.theme_backgroundColor = [UIColor.darkFour.hexString(true), UIColor.paleGrey.hexString(true)]
-                cell.businessTitleCellView.paris.theme_textColor = [UIColor.pastelOrange.hexString(true), UIColor.pastelOrange.hexString(true)]
+                cell.businessTitleCellView.paris.theme_textColor = [UIColor.primary.hexString(true), UIColor.primary.hexString(true)]
             } else {
                 cell.theme_backgroundColor = [UIColor.darkTwo.hexString(true),
                                               UIColor.white.hexString(true)]

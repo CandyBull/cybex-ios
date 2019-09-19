@@ -108,7 +108,7 @@ class RegisterViewController: BaseViewController {
         confirmPasswordTextField.activityView?.isHidden = true
         confirmPasswordTextField.tailImage = nil
 
-        macawView.backgroundColor = UIColor.peach
+        macawView.backgroundColor = UIColor.primary
         if Device.size() == .screen3_5Inch || Device.size() == .screen4Inch {
             titleL.font = UIFont.systemFont(ofSize: 11)
         }

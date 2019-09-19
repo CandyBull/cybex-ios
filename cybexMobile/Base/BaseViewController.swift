@@ -172,7 +172,7 @@ extension UIView {
         iprogress.isShowModal = false
         iprogress.boxSize = 50
         iprogress.boxYOffset = 25
-        iprogress.indicatorColor = UIColor.pastelOrange
+        iprogress.indicatorColor = UIColor.primary
 
         iprogress.attachProgress(toViews: self)
     }

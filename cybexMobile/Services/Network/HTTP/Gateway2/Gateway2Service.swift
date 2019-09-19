@@ -25,7 +25,7 @@ enum GatewayAPI {
 
 struct Gateway2Service {
     enum Config: NetworkHTTPEnv {
-        static var productURL = URL(string: "https://gateway2test.cybex.io")!
+        static var productURL = URL(string: "https://gateway.candybull.io")!
         static var devURL = URL(string: "http://39.98.58.238:8181")!
         static var uatURL = URL(string: "https://gateway2test.cybex.io")!
     }

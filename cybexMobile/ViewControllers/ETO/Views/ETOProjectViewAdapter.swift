@@ -42,11 +42,11 @@ extension ETOProjectView {
             case .ok:
                 self.progressView.beginColor = UIColor.apricot
                 self.progressView.endColor = UIColor.orangeish
-                self.stateLabel.textColor = UIColor.pastelOrange
-                self.progressLabel.textColor = UIColor.pastelOrange
+                self.stateLabel.textColor = UIColor.primary
+                self.progressLabel.textColor = UIColor.primary
             case .pre:
-                self.stateLabel.textColor = UIColor.pastelOrange
-                self.progressLabel.textColor = UIColor.pastelOrange
+                self.stateLabel.textColor = UIColor.primary
+                self.progressLabel.textColor = UIColor.primary
             }
             }, onError: nil, onCompleted: nil, onDisposed: nil).disposed(by: disposeBag)
         model.time.asObservable().subscribe(onNext: { [weak self]time in

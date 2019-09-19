@@ -16,7 +16,7 @@ class MarketDetailPageTabViewController: ButtonBarPagerTabStripViewController {
     override func viewDidLoad() {
         self.containerView.isScrollEnabled = false
 
-        settings.style.selectedBarBackgroundColor = UIColor.pastelOrange
+        settings.style.selectedBarBackgroundColor = UIColor.primary
         settings.style.buttonBarItemFont = UIFont.boldSystemFont(ofSize: 14)
         settings.style.selectedBarHeight = 2.0
         settings.style.buttonBarMinimumLineSpacing = 0
@@ -32,7 +32,7 @@ class MarketDetailPageTabViewController: ButtonBarPagerTabStripViewController {
             animated: Bool) -> Void in
                 guard changeCurrentIndex == true else { return }
                 oldCell?.label.textColor = UIColor.steel
-                newCell?.label.textColor = UIColor.pastelOrange
+                newCell?.label.textColor = UIColor.primary
         }
         super.viewDidLoad()
     }

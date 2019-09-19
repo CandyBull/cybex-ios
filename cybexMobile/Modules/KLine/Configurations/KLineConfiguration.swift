@@ -186,9 +186,9 @@ public class CBMainConfiguration {
 }
 
 class BlackKLineTheme: CBTheme {
-    var increaseColor: UIColor = #colorLiteral(red: 0.4922918081, green: 0.7674361467, blue: 0.356476903, alpha: 1)
+    var increaseColor: UIColor = UIColor.primaryGreen
 
-    var decreaseColor: UIColor = #colorLiteral(red: 0.7984321713, green: 0.3588138223, blue: 0.2628142834, alpha: 1)
+    var decreaseColor: UIColor = UIColor.primaryRed
 
     var klineSpace: CGFloat = 5
 

@@ -163,7 +163,7 @@ extension RecordChooseViewController: UITableViewDataSource, UITableViewDelegate
             if let data = self.coordinator?.state.data.value {
                 cell.setup(data[indexPath.row])
                 if indexPath.row == selectedIndex {
-                    cell.cellView.nameLabel.textColor = UIColor.pastelOrange
+                    cell.cellView.nameLabel.textColor = UIColor.primary
                 }
             }
             return cell

@@ -25,7 +25,7 @@ class CybexTitleView: UIView {
     var buttons: [UIButton] = []
     var lineView: UIView = {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: 1))
-        view.backgroundColor = .pastelOrange
+        view.backgroundColor = .primary
         return view
     }()
 
@@ -56,7 +56,7 @@ class CybexTitleView: UIView {
                 let btn = UIButton(frame: CGRect(x: CGFloat(index) * (btnWidth + space), y: 0, width: btnWidth, height: self.height-1))
                 btn.locali = data[index]
                 btn.setTitleColor(.steel, for: .normal)
-                btn.setTitleColor(.pastelOrange, for: .selected)
+                btn.setTitleColor(.primary, for: .selected)
                 btn.titleLabel?.font = UIFont.systemFont(ofSize: 16.0, weight: .medium)
                 btn.addTarget(self, action: #selector(selectedBtn(_:)), for: .touchUpInside)
                 btn.tag = index

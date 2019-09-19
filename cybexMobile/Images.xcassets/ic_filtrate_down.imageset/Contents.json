@@ -1,9 +1,9 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
       "filename" : "ic_filtrate_down.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",

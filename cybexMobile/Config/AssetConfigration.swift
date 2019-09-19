@@ -16,11 +16,11 @@ class AssetConfiguration {
     static var systemSymbol: String {
         switch AppEnv.current {
         case .product:
-            return "Candy"
+            return "CANDY"
         case .test:
             return "TEST"
         case .uat:
-            return "Candy"
+            return "CANDY"
         }
     }
 

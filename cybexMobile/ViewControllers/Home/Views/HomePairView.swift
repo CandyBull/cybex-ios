@@ -87,7 +87,7 @@ class HomePairView: UIView {
             self.icon.isHidden = true
             self.rankingLabel.isHidden = false
             if index < 3 {
-                self.rankingLabel.backgroundColor = UIColor.turtleGreen
+                self.rankingLabel.backgroundColor = UIColor.primaryGreen
             } else {
                 self.rankingLabel.backgroundColor = UIColor.steel50
             }

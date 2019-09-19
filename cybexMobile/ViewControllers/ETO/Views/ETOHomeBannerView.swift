@@ -53,7 +53,7 @@ class ETOHomeBannerView: CybexBaseView {
         self.pagerControl.contentHorizontalAlignment = .center
         self.pagerControl.numberOfPages = 5
         self.pagerControl.currentPage = 1
-        self.pagerControl.setFillColor(.pastelOrange, for: .selected)
+        self.pagerControl.setFillColor(.primary, for: .selected)
         self.pagerControl.setFillColor(.steel50, for: .normal)
     }
 

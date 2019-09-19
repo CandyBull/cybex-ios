@@ -61,7 +61,7 @@ class DeployTicketResultViewController: BaseViewController {
         let button = UIButton()
         button.backgroundColor = .clear
         button.locali = R.string.localizable.deposit_save.key
-        button.setTitleColor(UIColor.pastelOrange, for: .normal)
+        button.setTitleColor(UIColor.primary, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         button.addTarget(self, action: #selector(saveButtonDidClicked), for: .touchUpInside)
         button.tg_top ~= 12

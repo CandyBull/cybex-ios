@@ -52,7 +52,7 @@ class TransferContentView: UIView {
             memoView.contentLocali = R.string.localizable.transfer_detail_nodata.key.localized()
         } else {
             memoView.contentLocali = R.string.localizable.transfer_detail_click.key.localized()
-            memoView.content.textColor = UIColor.pastelOrange
+            memoView.content.textColor = UIColor.primary
             memoView.isUserInteractionEnabled = true
             memoView.content.rx.tapGesture().when(.recognized).asObservable().subscribe(onNext: { [weak self](_) in
                 guard let self = self else { return }

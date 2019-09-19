@@ -39,7 +39,7 @@ class BaseNavigationController: UINavigationController {
         self.navigationBar.isTranslucent = false
         self.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.foregroundColor: UIColor.paleGrey]
         if #available(iOS 11.0, *) {
-            self.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 1, green: 0.6386402845, blue: 0.3285836577, alpha: 1)]
+            self.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.primary]
         }
         self.navigationBar.tintColor = #colorLiteral(red: 0.5436816812, green: 0.5804407597, blue: 0.6680644155, alpha: 1)
 

@@ -5753,7 +5753,6 @@
 			baseConfigurationReference = D6CA43C1AC824DC7B5125E1E /* Pods-cybexMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = cybexMobile/cybexMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -5850,7 +5849,6 @@
 			baseConfigurationReference = E28DDA7C429262E80BB0E0CB /* Pods-cybexMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = cybexMobile/cybexMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -6027,7 +6025,6 @@
 			baseConfigurationReference = E67FFC64D65036FC65E8A88E /* Pods-cybexMobile.tests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = cybexMobile/cybexMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

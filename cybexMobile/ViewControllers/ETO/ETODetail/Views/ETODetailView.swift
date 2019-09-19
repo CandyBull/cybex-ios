@@ -47,7 +47,7 @@ class ETODetailView: CybexBaseView {
 //        self.stateView.isHidden = true
         ETOManager.shared.changeState(.unset)
         getWhiteListView.rightIcon.image = R.image.icwhitelist()
-        getWhiteListView.name.textColor = UIColor.pastelOrange
+        getWhiteListView.name.textColor = UIColor.primary
         self.getJoinButtonState()
     }
 
@@ -85,7 +85,7 @@ class ETODetailView: CybexBaseView {
             stateButton.alpha = 1
             stateButton.isUserInteractionEnabled = true
         case .wait:
-            stateButton.titleColor = UIColor.pastelOrange
+            stateButton.titleColor = UIColor.primary
             stateButton.btn_borderColor = UIColor.peach
             stateButton.btn_borderWidth = 1
             if ThemeManager.currentThemeIndex == 0 {

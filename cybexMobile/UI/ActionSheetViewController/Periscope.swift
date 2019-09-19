@@ -122,7 +122,7 @@ public class PeriscopeActionController: ActionController<PeriscopeCell, String, 
             cell.setup(action.data, detail: nil, image: nil)
             cell.separatorView?.isHidden = indexPath.item == self.collectionView.numberOfItems(inSection: indexPath.section) - 1
             if let selectedIndex = self.selectedIndex, selectedIndex == indexPath {
-                cell.actionTitleLabel?.textColor = UIColor.pastelOrange
+                cell.actionTitleLabel?.textColor = UIColor.primary
             }
         }
     }
@@ -134,7 +134,7 @@ public class PeriscopeActionController: ActionController<PeriscopeCell, String, 
     public override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         super.collectionView(collectionView, didSelectItemAt: indexPath)
         if let cell = collectionView.cellForItem(at: indexPath) as? PeriscopeCell {
-            cell.actionTitleLabel?.textColor = UIColor.pastelOrange
+            cell.actionTitleLabel?.textColor = UIColor.primary
         }
     }
 }

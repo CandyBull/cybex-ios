@@ -1,14 +1,14 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
       "filename" : "ic_eto_active_24_px.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "idiom" : "universal"
     },
     {
-      "idiom" : "universal",
       "filename" : "ic_eto_active_24_px@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",

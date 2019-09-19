@@ -1,9 +1,9 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "scale" : "1x",
       "filename" : "icwhitelist.png",
-      "scale" : "1x"
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",

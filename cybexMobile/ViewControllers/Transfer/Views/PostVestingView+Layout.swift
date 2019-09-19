@@ -59,7 +59,7 @@ extension PostVestingView {
         dropMenu.normalIcon = R.image.ic2()
         dropMenu.selectedIcon = R.image.ic3()
         dropMenu.normalTextColor = .steel
-        dropMenu.selectedTextColor = .pastelOrange
+        dropMenu.selectedTextColor = .primary
         dropMenu.nameLabel.locali = R.string.localizable.vesting_time_unit_second.key
         dropMenu.xibView?.theme_backgroundColor = [UIColor.darkFour.hexString(true), UIColor.paleGreyFour.hexString(true)]
         stackview.arrangedSubviews[1].addSubview(dropMenu)

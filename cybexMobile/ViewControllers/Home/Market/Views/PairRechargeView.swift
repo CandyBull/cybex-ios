@@ -28,9 +28,9 @@ class PairRechargeView: UIView {
     @IBOutlet weak var sell: Button!
 
     fileprivate func setup() {
-        buy.gradientLayer.colors =  [UIColor.paleOliveGreen.cgColor, UIColor.apple.cgColor]
+        buy.gradientLayer.colors =  [UIColor.primaryGreen.cgColor, UIColor.primaryGreen.cgColor]
 
-        sell.gradientLayer.colors = [UIColor.pastelRed.cgColor, UIColor.reddish.cgColor]
+        sell.gradientLayer.colors = [UIColor.primaryRed.cgColor, UIColor.primaryRed.cgColor]
     }
 
     override var intrinsicContentSize: CGSize {

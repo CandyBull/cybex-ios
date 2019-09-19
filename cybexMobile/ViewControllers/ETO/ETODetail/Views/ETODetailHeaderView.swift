@@ -55,7 +55,7 @@ class ETODetailHeaderView: CybexBaseView {
         } else {
             progressView.beginColor = UIColor.apricot
             progressView.endColor = UIColor.orangeish
-            progressLabel.textColor = UIColor.pastelOrange
+            progressLabel.textColor = UIColor.primary
         }
     }
 

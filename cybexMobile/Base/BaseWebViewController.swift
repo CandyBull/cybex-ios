@@ -63,7 +63,7 @@ class BaseWebViewController: BaseViewController {
         navigationBar.addSubview(progressView)
 
         progressView.isHidden = true
-        progressView.progressTintColor = UIColor.pastelOrange
+        progressView.progressTintColor = UIColor.primary
         let color = ThemeManager.currentThemeIndex == 0 ? UIColor.dark : UIColor.paleGrey
         progressView.trackTintColor = color
 

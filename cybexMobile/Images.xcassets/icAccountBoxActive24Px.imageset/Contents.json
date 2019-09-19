@@ -1,14 +1,14 @@
 {
   "images" : [
     {
+      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "icAccountBoxActive24Px.png",
-      "scale" : "1x"
+      "filename" : "icAccountBoxActive24Px.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "icAccountBoxActive24Px@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "icAccountBoxActive24Px@2x.png"
     },
     {
       "idiom" : "universal",

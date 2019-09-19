@@ -109,8 +109,8 @@ class QuotesTitleView: UIView {
                 if self.stackView.axis == .vertical {
                     titleView.viewWithTag(10)?.isHidden = true
                     if let titleL =  titleView.viewWithTag(9) as? UILabel {
-                        titleL.theme1TitleColor = .pastelOrange
-                        titleL.theme2TitleColor = .pastelOrange
+                        titleL.theme1TitleColor = .primary
+                        titleL.theme2TitleColor = .primary
                         let selectedIndex = index - 1
                         self.next?.sendEventWith(Event.tagDidSelected.rawValue, userinfo: ["selectedIndex": selectedIndex, "save": save])
                     }

@@ -1,13 +1,13 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
       "filename" : "ic.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "idiom" : "universal"
     },
     {
-      "idiom" : "universal",
       "filename" : "ic@2x.png",
+      "idiom" : "universal",
       "scale" : "2x"
     },
     {
