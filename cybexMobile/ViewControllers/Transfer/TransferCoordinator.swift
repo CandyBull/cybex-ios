@@ -180,7 +180,7 @@ extension TransferCoordinator: TransferCoordinatorProtocol {
         if let vc = R.storyboard.account.addAddressViewController() {
             vc.coordinator = AddAddressCoordinator(rootVC: self.rootVC)
             vc.addressType = .transfer
-            vc.asset = AssetConfiguration.CybexAsset.CYB.id
+            vc.asset = AssetConfiguration.CybexAsset.CoreToken.id
             self.rootVC.pushViewController(vc, animated: true)
         }
     }

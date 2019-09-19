@@ -185,8 +185,8 @@ extension OpenedOrdersCoordinator: OpenedOrdersStateManagerProtocol {
     func cancelAllOrder(_ pair: Pair?, callback: @escaping (_ success: Bool) -> Void) {
         guard let userid = UserManager.shared.getCachedAccount()?.id else { return }
 
-        var sellAssetId = AssetConfiguration.CybexAsset.CYB.id
-        var receivedAssetId = AssetConfiguration.CybexAsset.CYB.id
+        var sellAssetId = AssetConfiguration.CybexAsset.CoreToken.id
+        var receivedAssetId = AssetConfiguration.CybexAsset.CoreToken.id
 
         if let pair = pair {
             sellAssetId = pair.base
@@ -196,7 +196,7 @@ extension OpenedOrdersCoordinator: OpenedOrdersStateManagerProtocol {
         let operation = BitShareCoordinator.cancelAllLimitOrderOperation(0, receive_asset_id: 0, user_id: 0, fee_id: 0, fee_amount: 0)
 
         CybexChainHelper.calculateFee(operation,
-                                      operationID: OperationId.cancelAll, focusAssetId: AssetConfiguration.CybexAsset.CYB.id) { (success, amount, assetID) in
+                                      operationID: OperationId.cancelAll, focusAssetId: AssetConfiguration.CybexAsset.CoreToken.id) { (success, amount, assetID) in
                                         if success {
                                             CybexChainHelper.blockchainParams { (blockchainParams) in
                                                 guard let asset = appData.assetInfo[assetID] else {return}

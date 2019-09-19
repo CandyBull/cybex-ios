@@ -149,7 +149,7 @@ class CloudPasswordSettingViewController: BaseViewController {
                         }
 
                         CybexChainHelper.calculateFee(operation,
-                                                      operationID: OperationId.accountUpdate, focusAssetId: AssetConfiguration.CybexAsset.CYB.id) { (success, amount, assetID) in
+                                                      operationID: OperationId.accountUpdate, focusAssetId: AssetConfiguration.CybexAsset.CoreToken.id) { (success, amount, assetID) in
                                                         if success {
                                                             guard let newOperation = self.updateFeeOfOperation(operation, amount: amount) else {
                                                                 return
@@ -220,7 +220,7 @@ class CloudPasswordSettingViewController: BaseViewController {
         active["key_auths"] = activeKeyAuths
         options["memo_key"] = ownerKey
 
-        let dic = ["fee": ["amount": 0, "asset_id": AssetConfiguration.CybexAsset.CYB.id],
+        let dic = ["fee": ["amount": 0, "asset_id": AssetConfiguration.CybexAsset.CoreToken.id],
                    "account": id,
                    "active": active,
                    "new_options": options,
@@ -233,7 +233,7 @@ class CloudPasswordSettingViewController: BaseViewController {
     func updateFeeOfOperation(_ op: String, amount: Decimal) -> String? {
         guard var json = JSON(parseJSON: op).dictionaryObject,
             var fee = json["fee"] as? [String: Any],
-            let asset = appData.assetInfo[AssetConfiguration.CybexAsset.CYB.id]
+            let asset = appData.assetInfo[AssetConfiguration.CybexAsset.CoreToken.id]
             else {
                 return nil
         }

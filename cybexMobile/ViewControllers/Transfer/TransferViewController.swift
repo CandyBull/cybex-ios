@@ -28,7 +28,7 @@ class TransferViewController: BaseViewController {
         super.viewDidLoad()
         setupUI()
 
-        self.coordinator?.calculateFee(AssetConfiguration.CybexAsset.CYB.id, memo: self.transferView.memoView.textView.text)
+        self.coordinator?.calculateFee(AssetConfiguration.CybexAsset.CoreToken.id, memo: self.transferView.memoView.textView.text)
     }
 
     override func viewWillAppear(_ animated: Bool) {

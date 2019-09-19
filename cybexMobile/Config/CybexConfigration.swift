@@ -13,7 +13,7 @@ class CybexConfiguration {
     static let shared = CybexConfiguration()
 
     static let portfolioOutPriceBaseOrderAsset = [
-        AssetConfiguration.CybexAsset.CYB,
+        AssetConfiguration.CybexAsset.CoreToken,
         AssetConfiguration.CybexAsset.USDT,
         AssetConfiguration.CybexAsset.ETH,
         AssetConfiguration.CybexAsset.BTC]

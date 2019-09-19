@@ -58,46 +58,26 @@ class MarketConfiguration {
     }
     
     // 修改后页面的base列表
-    static var newMarketBaseAssets: [AssetConfiguration.CybexAsset] {
+    static var marketBaseAssets: [AssetConfiguration.CybexAsset] {
         switch AppEnv.current {
         case .product:
             return [AssetConfiguration.CybexAsset.USDT,
                     AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
+                    AssetConfiguration.CybexAsset.CoreToken,
                     AssetConfiguration.CybexAsset.BTC]
         case .test:
             return [AssetConfiguration.CybexAsset.USDT,
                     AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
+                    AssetConfiguration.CybexAsset.CoreToken,
                     AssetConfiguration.CybexAsset.BTC]
         case .uat:
             return [AssetConfiguration.CybexAsset.USDT,
                     AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
+                    AssetConfiguration.CybexAsset.CoreToken,
                     AssetConfiguration.CybexAsset.BTC]
         }
     }
 
-    //行情页面base列表
-    static var marketBaseAssets: [AssetConfiguration.CybexAsset] {
-        switch AppEnv.current {
-        case .product:
-            return [AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
-                    AssetConfiguration.CybexAsset.USDT,
-                    AssetConfiguration.CybexAsset.BTC]
-        case .test:
-            return [AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
-                    AssetConfiguration.CybexAsset.USDT,
-                    AssetConfiguration.CybexAsset.BTC]
-        case .uat:
-            return [AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CYB,
-                    AssetConfiguration.CybexAsset.USDT,
-                    AssetConfiguration.CybexAsset.BTC]
-        }
-    }
 
     //交易大赛base
     static var gameMarketBaseAssets: [AssetConfiguration.CybexAsset] {

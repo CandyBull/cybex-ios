@@ -61,6 +61,8 @@ class AppConfiguration {
     static let debounceDisconnectTime = 10
     static let autoLockWalletInbackground = 60 * 5
 
+    static let AppName = "CandyBull"
+
     private init() {
         let rootVC = BaseTabbarViewController()
         appCoordinator = AppCoordinator(rootVC: rootVC)

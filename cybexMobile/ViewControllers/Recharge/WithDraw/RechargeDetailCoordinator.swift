@@ -239,7 +239,7 @@ extension RechargeDetailCoordinator: RechargeDetailStateManagerProtocol {
         var requestAmount: String = ""
 
         var finalAmount: Decimal = amount
-        if feeId != AssetConfiguration.CybexAsset.CYB.id {
+        if feeId != AssetConfiguration.CybexAsset.CoreToken.id {
             if let gatewayFeeAmount = self.state.fee.value?.0, let gatewayFee = Decimal(string: gatewayFeeAmount.amount) {
                 if allAmount < gatewayFee + amount {
                     finalAmount -= gatewayFee

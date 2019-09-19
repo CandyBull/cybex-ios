@@ -37,7 +37,7 @@ class MarketHelper {
         let relation: [String] = [AssetConfiguration.CybexAsset.USDT.rawValue,
                                   AssetConfiguration.CybexAsset.ETH.rawValue,
                                   AssetConfiguration.CybexAsset.BTC.rawValue,
-                                  AssetConfiguration.CybexAsset.CYB.rawValue]
+                                  AssetConfiguration.CybexAsset.CoreToken.rawValue]
 
         let filterSymbolA = assetIDAName.filterSystemPrefix
         let filterSymbolB = assetIDBName.filterSystemPrefix

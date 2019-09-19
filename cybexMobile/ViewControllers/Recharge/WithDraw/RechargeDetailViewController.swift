@@ -18,7 +18,7 @@ class RechargeDetailViewController: BaseViewController {
     
     @IBOutlet weak var contentView: RechargeView!
     
-    var feeAssetId: String  = AssetConfiguration.CybexAsset.CYB.id
+    var feeAssetId: String  = AssetConfiguration.CybexAsset.CoreToken.id
     var available: Decimal = 0.0 // 可用余额有精度
     var requireAmount: String = "" //至少需要的金额
     var isWithdraw: Bool = false // 提现是否开启

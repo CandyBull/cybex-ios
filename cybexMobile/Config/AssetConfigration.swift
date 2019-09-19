@@ -16,17 +16,19 @@ class AssetConfiguration {
     static var systemSymbol: String {
         switch AppEnv.current {
         case .product:
-            return "JADE"
+            return "Candy"
         case .test:
             return "TEST"
         case .uat:
-            return "JADE"
+            return "Candy"
         }
     }
 
     static let ArenaSymbol = "ARENA"
+    static let NativeCoreToken = "CBD"
 
     enum CybexAsset: String, CaseIterable {
+        case CBD
         case CYB
         case BTC
         case ETH
@@ -41,8 +43,14 @@ class AssetConfiguration {
         case ArenaUSDT
         case ArenaBTC
 
+        static var CoreToken: CybexAsset {
+            return .CYB
+        }
+
         var id: String {
             switch self {
+            case .CBD:
+                return "1.3.8888"
             case .CYB:
                 return "1.3.0"
             case .BTC:
