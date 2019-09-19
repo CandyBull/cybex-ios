@@ -73,18 +73,18 @@
 
 
 "portfolio.title"              = "Your Portfolio";
-"portfolio.price"              = "Price (CYB):";
+"portfolio.price"              = "Price (CBD):";
 "portfolio.time"               = "24h Change:";
 
 "account.title"                = "Account";
 "account.yourPortfolio"        = "Your Portfolio";
 "account.viewAll"              = "View All";
-"account.yourTotalBalance"     = "Your Total Balance (CYB):";
+"account.yourTotalBalance"     = "Your Total Balance (CBD):";
 "account.assetOperations"      = "Asset Operations";
 "account.basicMember"          = "Basic Member";
 "account.superMember"          = "Lifetime Member";
-"account.login"                = "Log in Cybex";
-"account.introduce"            = "CYBEX is a decentralized exchange that seeks to improve the liquidity of crypto-assets that’s more transparent, highly efficient and secure.";
+"account.login"                = "Log in CandyBull";
+"account.introduce"            = "CandyBull is a decentralized exchange that seeks to improve the liquidity of crypto-assets that’s more transparent, highly efficient and secure.";
 "account.nonMatch" = "Incorrect Account Name or Password";
 "ok" = "OK";
 "account.validate.error.1" = "account name is already taken";
@@ -115,7 +115,7 @@
 
 "asset_mount" = "Asset/Amount";
 "progress_expiration" = "Progress/Expiration Time";
-"cyb_value" = "Value(CYB)";
+"cyb_value" = "Value(CBD)";
 
 "balance_introduce" = "This is the estimated value of all your assets,including any hidden assets,open orders,debt and collateral.The estimate is done using only live blockchain data and may not be perfectly accurate.";
 "balance_introduce_title" = "BALANCE";
@@ -130,7 +130,7 @@
 
 
 "updata_available_title"              = "Update Available";
-"updata_available_message"            = "A new version of CybexDex is available. Please update to newest version now";
+"updata_available_message"            = "A new version of CandyBullDex is available. Please update to newest version now";
 "updata_next_time"                    = "Next Time";
 "updata_updata"                       = "Update";
 "unupdata_title"                      = "No Update Available";
@@ -357,7 +357,7 @@
 "my_property" = "My Balance";
 "order_value" = "Orders";
 "transfer" = "Transfer";
-"account_property" = "Your Total Balance(CYB)";
+"account_property" = "Your Total Balance(CBD)";
 "hello" = "Hello，";
 "deposit_withdraw" = "Deposit/Withdraw";
 "frozen" = "Frozen：";
@@ -480,7 +480,7 @@
 "eto_token_name" = "Token Name：";
 "eto_start_time" = "ETO Time：";
 "eto_end_time" = "End at：";
-"eto_start_at" = "Circulation on Cybex Starts at：";
+"eto_start_at" = "Circulation on CandyBull Starts at：";
 "eto_token_releasing_time" = "Token Releasing Time：";
 "eto_currency" = "Currency：";
 "eto_exchange_ratio" = "Exchange Ratio：";
@@ -620,7 +620,7 @@
 "orderbook_show_type_2" = "Buy Orders";
 "orderbook_show_type_3" = "Default";
 
-"contest_notice" = "1. The contest has a duration of 14 days. Participation by API and quantitative models is encouraged by the host that will provide various assistance for quantitative APIs.\n\n2. This contest uses the virtual assets ARENA.ETH, ARENA.USDT, ARENA.EOS, ARENA.BTC that can be freely traded during the game (transfer not permitted). Only 3 trading pairs are accessible during the game: ARENA.ETH/ARENA.USDT, ARENA.EOS/ARENA.USDT, ARENA.BTC/ARENA.USDT.\n\n3. Each contestant will be given an initial capital of 100,000 ARENA.USDT by the form of an airdrop once successfully registered to the game. During the competition, the host will take snapshots of the account balance of the competitors regularly and convert it to USDT value by the median price of the corresponding assets in CYBEX exchange.\n\n4.Reward calculations are based on changes in account balances. The final rank will be made by considerating yield rate (ie, the difference between the balance and the initial capital), the Sharpe ratio (revenue volatility), and the turnover rate(accumulated volume per natural day exceeds 20%), etc. comprehensively. The real-time ranking status can be queried on the official website.\n\n5. To ensure fairness, please help us in the prevention of cheating in any form.\n\n6. The constest is jointly held by Cybex and HashBang. Apple Inc. is not a sponsor or involved in the activity in ny manner.All rights reserved to Cybex Decentralized Exchange.";
+"contest_notice" = "1. The contest has a duration of 14 days. Participation by API and quantitative models is encouraged by the host that will provide various assistance for quantitative APIs.\n\n2. This contest uses the virtual assets ARENA.ETH, ARENA.USDT, ARENA.EOS, ARENA.BTC that can be freely traded during the game (transfer not permitted). Only 3 trading pairs are accessible during the game: ARENA.ETH/ARENA.USDT, ARENA.EOS/ARENA.USDT, ARENA.BTC/ARENA.USDT.\n\n3. Each contestant will be given an initial capital of 100,000 ARENA.USDT by the form of an airdrop once successfully registered to the game. During the competition, the host will take snapshots of the account balance of the competitors regularly and convert it to USDT value by the median price of the corresponding assets in CandyBull exchange.\n\n4.Reward calculations are based on changes in account balances. The final rank will be made by considerating yield rate (ie, the difference between the balance and the initial capital), the Sharpe ratio (revenue volatility), and the turnover rate(accumulated volume per natural day exceeds 20%), etc. comprehensively. The real-time ranking status can be queried on the official website.\n\n5. To ensure fairness, please help us in the prevention of cheating in any form.\n\n6. The constest is jointly held by CandyBull and HashBang. Apple Inc. is not a sponsor or involved in the activity in ny manner.All rights reserved to CandyBull Decentralized Exchange.";
 "contest_notice_title" = "Contest Rules";
 "contest_notice_not_tip" = "Do not show";
 "contest_notice_close" = "Cancel";
@@ -652,7 +652,7 @@
 "socket_failed" = "Connection fail";
 
 "coin_age" = "Coin Age: %@";
-"coin_age_desc" = "Coin age is calculated based on the CYB in the CYBEX account. It is updated at UTC+00:00 every day.\n<password>Calculation Rules</password>\nStarting time: the date of CYBEX exchange launched\nCoin age = coin age of the previous day * a depreciation coefficient (X = 0.975) + open interests of CYB for the day\nCoin age of the first day = open interests of CYB\nFor the convenience, coin age on APP = coin age * (1 - depreciation coefficient)\nNote\nCYB in order and lock is not counted.\nIf you have very little open interests or very large depreciation, the coin age may be 0 due to the accuracy.\nExample\nUser A holds position of 10,000 CYB for one year, the coin age (A) = 10000*（1+0.975+……+0.975^364）=399960, while coin age on APP (A) = 399960*（1-0.975）= 9999.\nIf user B wants to have the same coin age as user A, he/she needs to purchase CYB that is 40 times of A’s.\nIf user C purchases 10,000 CYB and sells it the same day, coin age = 10000; After 28 days, C’s coin age = 10000*0.975^27 = 5048, which is a half of the initial.\n\n";
+"coin_age_desc" = "Coin age is calculated based on the CBD in the CandyBull account. It is updated at UTC+00:00 every day.\n<password>Calculation Rules</password>\nStarting time: the date of CandyBull exchange launched\nCoin age = coin age of the previous day * a depreciation coefficient (X = 0.975) + open interests of CBD for the day\nCoin age of the first day = open interests of CBD\nFor the convenience, coin age on APP = coin age * (1 - depreciation coefficient)\nNote\nCBD in order and lock is not counted.\nIf you have very little open interests or very large depreciation, the coin age may be 0 due to the accuracy.\nExample\nUser A holds position of 10,000 CBD for one year, the coin age (A) = 10000*（1+0.975+……+0.975^364）=399960, while coin age on APP (A) = 399960*（1-0.975）= 9999.\nIf user B wants to have the same coin age as user A, he/she needs to purchase CBD that is 40 times of A’s.\nIf user C purchases 10,000 CBD and sells it the same day, coin age = 10000; After 28 days, C’s coin age = 10000*0.975^27 = 5048, which is a half of the initial.\n\n";
 "coin_age_title" = "COIN AGE";
 "coin_age_desc_get" = "I KNOW";
 

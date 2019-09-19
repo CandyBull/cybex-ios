@@ -69,18 +69,18 @@
 "hashlock.hash" = "哈希值: ";
 
 "portfolio.title"       = "可用资产";
-"portfolio.price"       = "价格(CYB):";
+"portfolio.price"       = "价格(CBD):";
 "portfolio.time"        = "24h涨跌幅:";
 
 "account.title"                 = "账户";
 "account.yourPortfolio"         = "可用资产";
 "account.viewAll"               = "查看全部";
-"account.yourTotalBalance"      = "账户总余额(CYB):";
+"account.yourTotalBalance"      = "账户总余额(CBD):";
 "account.assetOperations"       = "其他资产";
 "account.basicMember"           = "普通会员";
 "account.superMember"           = "终生会员";
 "account.login"                 = "您好，请登录";
-"account.introduce"             = "CYBEX是一个旨在提高加密资产流动性的去中心化交易所，能够提供更多的透明性、更高的效率性和更好的安全性。";
+"account.introduce"             = "CandyBull是一个旨在提高加密资产流动性的去中心化交易所，能够提供更多的透明性、更高的效率性和更好的安全性。";
 "account.nonMatch" = "账户名或者密码错误";
 "ok" = "确认";
 "account.validate.error.1" = "账户名已经被使用";
@@ -109,7 +109,7 @@
 
 "asset_mount"                   = "资产/数量";
 "progress_expiration"           = "进度/到期时间";
-"cyb_value"                     = "最新市值(CYB)";
+"cyb_value"                     = "最新市值(CBD)";
 
 "balance_introduce"             = "这是你所有资产的估值，包含了在界面中设置了隐藏的资产、委单中的资产、债仓及抵押物。估值采用实时获得的区块链上的价格，可能不那么精确。";
 "balance_introduce_title"       = "账户总余额";
@@ -123,7 +123,7 @@
 
 
 "updata_available_title"              = "可更新";
-"updata_available_message"            = "新版本的CybexDex可用。请立即更新至最新版本";
+"updata_available_message"            = "新版本的CandyBullDex可用。请立即更新至最新版本";
 "updata_next_time"                    = "下次";
 "updata_updata"                       = "更新";
 "unupdata_title"                      = "通知";
@@ -337,7 +337,7 @@
 "my_property" = "我的资产";
 "order_value" = "委单";
 "transfer" = "转账";
-"account_property" = "账户资产估值(CYB)";
+"account_property" = "账户资产估值(CBD)";
 "hello" = "您好，";
 "deposit_withdraw" = "充值提现";
 "frozen" = "冻结：";
@@ -599,7 +599,7 @@
 "orderbook_show_type_2" = "展示买单";
 "orderbook_show_type_3" = "默认";
 
-"contest_notice" = "1. 本次比赛为期14天。大赛主办方鼓励参赛者使用API及量化模型参赛，并为量化接入提供各种协助支援。\n\n2. 本次比赛采用虚拟资产ARENA.BTC，ARENA.EOS，ARENA.ETH，ARENA.USDT，比赛期间自由交易(不允许资产转账)，仅开放交易对ARENA.ETH/ARENA.USDT、ARENA.EOS/ARENA.USDT、ARENA.BTC/ARENA.USDT，通过做市商确保交易对价格严格对应主交易所。\n\n3. 每位参赛选手初始资金100,000 ARENA.USDT，由官方向报名成功的用户在比赛开始前夕空投。大赛期间，组织方将对有参赛选手的账户定期做快照，按照CYBEX交易所对应资产中间价折算出账户内ARENA.USDT余额。\n\n4. 奖励计算均基于账户余额的变化情况，按照收益率(即账户价值与初始价值的差值)，夏普比率(收益波动性)和换手率(每自然日累计交易量超过20%)进行各个奖项的排名。赛况可在赛事官网实时查询。\n\n5. 为了保证比赛环境的公平，请协助我们一起杜绝作弊行为的发生。\n\n6. 该活动与苹果公司无关，最终解释权归赛贝所有";
+"contest_notice" = "1. 本次比赛为期14天。大赛主办方鼓励参赛者使用API及量化模型参赛，并为量化接入提供各种协助支援。\n\n2. 本次比赛采用虚拟资产ARENA.BTC，ARENA.EOS，ARENA.ETH，ARENA.USDT，比赛期间自由交易(不允许资产转账)，仅开放交易对ARENA.ETH/ARENA.USDT、ARENA.EOS/ARENA.USDT、ARENA.BTC/ARENA.USDT，通过做市商确保交易对价格严格对应主交易所。\n\n3. 每位参赛选手初始资金100,000 ARENA.USDT，由官方向报名成功的用户在比赛开始前夕空投。大赛期间，组织方将对有参赛选手的账户定期做快照，按照CandyBull交易所对应资产中间价折算出账户内ARENA.USDT余额。\n\n4. 奖励计算均基于账户余额的变化情况，按照收益率(即账户价值与初始价值的差值)，夏普比率(收益波动性)和换手率(每自然日累计交易量超过20%)进行各个奖项的排名。赛况可在赛事官网实时查询。\n\n5. 为了保证比赛环境的公平，请协助我们一起杜绝作弊行为的发生。\n\n6. 该活动与苹果公司无关，最终解释权归赛贝所有";
 "contest_notice_title" = "游戏规则";
 "contest_notice_not_tip" = "不再提示";
 "contest_notice_close" = "取消";
@@ -632,7 +632,7 @@
 "socket_failed" = "连接失败";
 
 "coin_age" = "币龄 : %@";
-"coin_age_desc" = "基于Cybex账户中的CYB持币历史情况，计算得出账户币龄，每天的UTC0点更新。\n<password>计算规则</password>\n以Cybex交易所上线为起始日期;\n币龄=前一天的币龄*折旧系数（X=0.975）+当天CYB持仓量;\n第一天币龄=CYB持仓量;\n为了方便展示，显示币龄=币龄*（1-折旧系数）。\n\n注意\n委托单和锁定中的CYB不计入;\n当持币量过小,或折旧过大时由于精度问题，币龄为0。\n\n样例\n用户A一年前购入10000CYB持有至今，币龄（A）=10000*（1+0.975+……+0.975^364）=399960;\n显示币龄（A）=399960*（1-0.975）=9999;\n用户B想要和A有同样的币龄则需要购入A持币量的40倍;\n用户C今天购买10000CYB并卖出，此时C的币龄=10000 ，28天后C的币龄=10000*0.975^27=5048 ，此时币龄为初始时的一半。\n\n";
+"coin_age_desc" = "基于CandyBull账户中的CBD持币历史情况，计算得出账户币龄，每天的UTC0点更新。\n<password>计算规则</password>\n以CandyBull交易所上线为起始日期;\n币龄=前一天的币龄*折旧系数（X=0.975）+当天CBD持仓量;\n第一天币龄=CBD持仓量;\n为了方便展示，显示币龄=币龄*（1-折旧系数）。\n\n注意\n委托单和锁定中的CBD不计入;\n当持币量过小,或折旧过大时由于精度问题，币龄为0。\n\n样例\n用户A一年前购入10000CBD持有至今，币龄（A）=10000*（1+0.975+……+0.975^364）=399960;\n显示币龄（A）=399960*（1-0.975）=9999;\n用户B想要和A有同样的币龄则需要购入A持币量的40倍;\n用户C今天购买10000CBD并卖出，此时C的币龄=10000 ，28天后C的币龄=10000*0.975^27=5048 ，此时币龄为初始时的一半。\n\n";
 "coin_age_title" = "币龄";
 "coin_age_desc_get" = "我知道了";
 
