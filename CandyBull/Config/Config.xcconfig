@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  CandyBull
+//
+//  Created by koofrank on 2018/11/21.
+//  Copyright © 2018 CandyBull. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CandyBull_Base_URL = "https://app.candybull.io/"

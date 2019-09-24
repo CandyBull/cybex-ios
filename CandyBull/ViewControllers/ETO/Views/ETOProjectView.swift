@@ -1,0 +1,46 @@
+//
+//  ETOProjectView.swift
+//  CandyBull
+//
+//  Created DKM on 2018/8/28.
+//  Copyright © 2018年 CandyBull. All rights reserved.
+//
+
+import Foundation
+
+@IBDesignable
+class ETOProjectView: CybexBaseView {
+
+    @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var markLabel: UILabel!
+    @IBOutlet weak var progressView: LockupProgressView!
+    @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var timeImgView: UIImageView!
+    @IBOutlet weak var progressLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var timeState: UILabel!
+
+    enum Event: String {
+        case ETOProjectViewDidClicked
+    }
+
+    override func setup() {
+        super.setup()
+
+        setupUI()
+        setupSubViewEvent()
+    }
+
+    func setupUI() {
+
+    }
+
+    func setupSubViewEvent() {
+
+    }
+
+    @objc override func didClicked() {
+        self.next?.sendEventWith(Event.ETOProjectViewDidClicked.rawValue, userinfo: ["data": self.data ?? "", "self": self])
+    }
+}

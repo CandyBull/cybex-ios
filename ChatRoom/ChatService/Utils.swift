@@ -3,7 +3,7 @@
 //  ChatRoom
 //
 //  Created by koofrank on 2018/11/23.
-//  Copyright © 2018 Cybex. All rights reserved.
+//  Copyright © 2018 CandyBull. All rights reserved.
 //
 
 import Foundation

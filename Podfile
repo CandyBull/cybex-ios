@@ -16,11 +16,11 @@ target 'ChatRoom' do
   pod 'RxCocoa', '~> 5'
 end
 
-target 'cybexMobile' do
+target 'CandyBull' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for cybexMobile
+  # Pods for CandyBull
 
     pod 'coswift'
     pod 'secp256k1_swift'
@@ -36,7 +36,7 @@ target 'cybexMobile' do
     pod 'Moya', '~> 13.0'
     pod "RxGesture"
 
-  target 'cybexMobileTests' do
+  target 'CandyBullTests' do
     inherit! :search_paths
     # Pods for testing
   end
