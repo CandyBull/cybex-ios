@@ -34,5 +34,4 @@ $(SRCROOT)/Carthage/Build/iOS/UIFontComplete.framework
 $(SRCROOT)/Carthage/Build/iOS/WKWebViewJavascriptBridge.framework
 $(SRCROOT)/Carthage/Build/iOS/XLPagerTabStrip.framework
 $(SRCROOT)/Carthage/Build/iOS/cybex_ios_core_cpp.framework
-$(SRCROOT)/Carthage/Build/iOS/secp256k1.framework
 $(SRCROOT)/Carthage/Build/iOS/web3swift.framework

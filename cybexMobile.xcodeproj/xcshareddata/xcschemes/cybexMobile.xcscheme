@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6597A0AC6C29D30281EBD879E45F3BAF"
-               BuildableName = "cybexMobile.app"
+               BuildableName = "CandyBull.app"
                BlueprintName = "cybexMobile"
                ReferencedContainer = "container:cybexMobile.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6597A0AC6C29D30281EBD879E45F3BAF"
-            BuildableName = "cybexMobile.app"
+            BuildableName = "CandyBull.app"
             BlueprintName = "cybexMobile"
             ReferencedContainer = "container:cybexMobile.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6597A0AC6C29D30281EBD879E45F3BAF"
-            BuildableName = "cybexMobile.app"
+            BuildableName = "CandyBull.app"
             BlueprintName = "cybexMobile"
             ReferencedContainer = "container:cybexMobile.xcodeproj">
          </BuildableReference>
@@ -104,7 +104,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6597A0AC6C29D30281EBD879E45F3BAF"
-            BuildableName = "cybexMobile.app"
+            BuildableName = "CandyBull.app"
             BlueprintName = "cybexMobile"
             ReferencedContainer = "container:cybexMobile.xcodeproj">
          </BuildableReference>

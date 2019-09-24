@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:cybexMobile.xcodeproj">
+      location = "group:/Users/koofrank/Documents/CandyBull/cybex-ios/cybexMobile.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -5223,9 +5223,23 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					03AD738B7858A5A07CACA489062E288F = {
+						LastSwiftMigration = 1100;
+					};
+					9EBE3BFE112B8F134B88BEA1F3B13929 = {
+						LastSwiftMigration = 1100;
+					};
+					CF974F52C4EA5CEB7FFFBAF3780FEE09 = {
+						LastSwiftMigration = 1100;
+					};
+					DECDEF64622234BE4225896AE5876036 = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
