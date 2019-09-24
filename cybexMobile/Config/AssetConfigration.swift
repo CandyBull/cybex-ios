@@ -56,7 +56,7 @@ class AssetConfiguration {
             case .BTC:
                 switch AppEnv.current {
                 case .product:
-                    return "1.3.3"
+                    return "1.3.1429"
                 case .test:
                     return "1.3.3"
                 case .uat:
@@ -65,7 +65,7 @@ class AssetConfiguration {
             case .ETH:
                 switch AppEnv.current {
                 case .product:
-                    return "1.3.2"
+                    return "1.3.1430"
                 case .test:
                     return "1.3.2"
                 case .uat:
@@ -74,7 +74,7 @@ class AssetConfiguration {
             case .USDT:
                 switch AppEnv.current {
                 case .product:
-                    return "1.3.27"
+                    return "1.3.1431"
                 case .test:
                     return "1.3.23"
                 case .uat:
@@ -110,7 +110,7 @@ class AssetConfiguration {
             case .EOS:
                 switch AppEnv.current {
                 case .product:
-                    return "1.3.4"
+                    return "1.3.1432"
                 case .test:
                     return "1.3.4"
                 case .uat:

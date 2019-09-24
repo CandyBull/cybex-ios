@@ -20,7 +20,7 @@ enum RegisterApi {
 
 struct RegisterService {
     enum Config: NetworkHTTPEnv {
-        static var productURL = URL(string: "https://faucet.cybex.io")!
+        static var productURL = URL(string: "https://faucet.candybull.io")!
         static let devURL = URL(string: "https://faucet.51nebula.com")!
         static var uatURL = URL(string: "https://uatfaucet.51nebula.com")!
     }

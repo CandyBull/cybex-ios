@@ -61,10 +61,7 @@ class MarketConfiguration {
     static var marketBaseAssets: [AssetConfiguration.CybexAsset] {
         switch AppEnv.current {
         case .product:
-            return [AssetConfiguration.CybexAsset.USDT,
-                    AssetConfiguration.CybexAsset.ETH,
-                    AssetConfiguration.CybexAsset.CoreToken,
-                    AssetConfiguration.CybexAsset.BTC]
+            return [AssetConfiguration.CybexAsset.USDT]
         case .test:
             return [AssetConfiguration.CybexAsset.USDT,
                     AssetConfiguration.CybexAsset.ETH,
