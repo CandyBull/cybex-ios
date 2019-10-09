@@ -79,7 +79,7 @@
 "account.title"                = "Account";
 "account.yourPortfolio"        = "Your Portfolio";
 "account.viewAll"              = "View All";
-"account.yourTotalBalance"     = "Your Total Balance (CBD):";
+"account.yourTotalBalance"     = "Your Total Balance (USDT):";
 "account.assetOperations"      = "Asset Operations";
 "account.basicMember"          = "Basic Member";
 "account.superMember"          = "Lifetime Member";
@@ -357,7 +357,7 @@
 "my_property" = "My Balance";
 "order_value" = "Orders";
 "transfer" = "Transfer";
-"account_property" = "Your Total Balance(CBD)";
+"account_property" = "Your Total Balance(USDT)";
 "hello" = "Hello，";
 "deposit_withdraw" = "Deposit/Withdraw";
 "frozen" = "Frozen：";

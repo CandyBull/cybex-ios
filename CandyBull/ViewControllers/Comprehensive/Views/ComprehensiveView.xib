@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,28 +24,28 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WPE-rN-dMX">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPE-rN-dMX">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZA-ba-mfx">
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XZA-ba-mfx">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="811"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dVu-pG-uuE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="811"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dVu-pG-uuE">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aiZ-49-g8l" customClass="ETOHomeBannerView" customModule="cybexMobile" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aiZ-49-g8l" customClass="ETOHomeBannerView" customModule="CandyBull" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="228"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="228" id="MVb-uu-qJW"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kme-f7-KkW" customClass="AnnounceView" customModule="cybexMobile" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kme-f7-KkW" customClass="AnnounceView" customModule="CandyBull" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="228" width="375" height="36"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="36" id="gvW-bZ-T0v"/>
                                             </constraints>
                                         </view>
-                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44G-7F-E3W" customClass="HotAssetsView" customModule="cybexMobile" customModuleProvider="target">
+                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44G-7F-E3W" customClass="HotAssetsView" customModule="CandyBull" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="264" width="375" height="110"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="110" id="NVK-8e-nVS"/>
@@ -62,11 +60,11 @@
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="showTouchFeedback" value="NO"/>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYL-dQ-b1J" customClass="ComprehensiveItemsView" customModule="cybexMobile" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dYL-dQ-b1J" customClass="ComprehensiveItemsView" customModule="CandyBull" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="264" width="375" height="90"/>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZn-fH-M19">
-                                            <rect key="frame" x="0.0" y="354" width="375" height="457"/>
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZn-fH-M19">
+                                            <rect key="frame" x="0.0" y="354" width="375" height="253"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3CG-Jz-SPa">
                                                     <rect key="frame" x="0.0" y="10" width="375" height="39"/>
@@ -89,13 +87,13 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdn-bC-eGH">
-                                                    <rect key="frame" x="0.0" y="49" width="375" height="408"/>
+                                                    <rect key="frame" x="0.0" y="49" width="375" height="204"/>
                                                 </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="3CG-Jz-SPa" secondAttribute="trailing" id="CjV-GI-Src"/>
                                                 <constraint firstItem="3CG-Jz-SPa" firstAttribute="top" secondItem="EZn-fH-M19" secondAttribute="top" constant="10" id="Liz-Na-VK5"/>
-                                                <constraint firstAttribute="height" constant="457" id="OTj-wA-nbh"/>
+                                                <constraint firstAttribute="height" constant="253" id="OTj-wA-nbh"/>
                                                 <constraint firstItem="Mdn-bC-eGH" firstAttribute="top" secondItem="3CG-Jz-SPa" secondAttribute="bottom" id="Ra0-1B-yaS"/>
                                                 <constraint firstItem="Mdn-bC-eGH" firstAttribute="leading" secondItem="EZn-fH-M19" secondAttribute="leading" id="U3D-xA-gvi"/>
                                                 <constraint firstAttribute="trailing" secondItem="Mdn-bC-eGH" secondAttribute="trailing" id="jsF-df-DTx"/>

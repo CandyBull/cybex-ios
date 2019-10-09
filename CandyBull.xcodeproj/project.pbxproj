@@ -711,6 +711,7 @@
 		73E9C05C224CAE280023B274 /* GatewayResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9C05B224CAE280023B274 /* GatewayResponseModel.swift */; };
 		73E9C07D224DEB2E0023B274 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9C07C224DEB2E0023B274 /* Network.swift */; };
 		73F113EC2216A700008C2D37 /* KeyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F113EB2216A700008C2D37 /* KeyHelper.swift */; };
+		73F3714D234D7DD600D102EC /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7392F289234CA2570007E882 /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		73F50B9E2137D0B20071B08D /* ETO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F50B9D2137D0B20071B08D /* ETO.storyboard */; };
 		73F50BA22137D71F0071B08D /* ETOCrowdGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F50B9F2137D71F0071B08D /* ETOCrowdGridItemView.swift */; };
 		73F50BA32137D71F0071B08D /* ETOCrowdGridItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F50BA02137D71F0071B08D /* ETOCrowdGridItemView.xib */; };
@@ -1286,7 +1287,6 @@
 		731C11B6214D045C00761955 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
 		731C11B8214D045D00761955 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = Carthage/Build/iOS/SocketRocket.framework; sourceTree = "<group>"; };
 		732DDEC42255F009002EE523 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
-		73335AC821476AA700CEF254 /* CandyBull.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CandyBull.entitlements; sourceTree = "<group>"; };
 		7333854E21BF674A0026765F /* PairPrecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairPrecision.swift; sourceTree = "<group>"; };
 		7333855021BF943D0026765F /* AppDelegate+Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Business.swift"; sourceTree = "<group>"; };
 		7333855221BF9A210026765F /* AppDelegate+Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Analytics.swift"; sourceTree = "<group>"; };
@@ -1483,6 +1483,7 @@
 		738FCEE3214909CC0042331A /* ZYNetworkAccessibity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetworkAccessibity.h; sourceTree = "<group>"; };
 		738FCEE4214909CC0042331A /* ZYNetworkAccessibity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetworkAccessibity.m; sourceTree = "<group>"; };
 		7391102A21BA7B5C00412CE1 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		7392F289234CA2570007E882 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		7392F566219AB948007FFCD0 /* CellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSizeCalculator.swift; sourceTree = "<group>"; };
 		7392F567219AB948007FFCD0 /* MessagesCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		7392F568219AB948007FFCD0 /* MessagesCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -1790,6 +1791,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F3714D234D7DD600D102EC /* CoreNFC.framework in Frameworks */,
 				732DDEC52255F00A002EE523 /* Sentry.framework in Frameworks */,
 				73E9C052224C69810023B274 /* BigInt.framework in Frameworks */,
 				7340C6B7233A024E004A0AAF /* MarqueeLabel.framework in Frameworks */,
@@ -3960,7 +3962,6 @@
 				72C844D1214A3EFE0078448C /* cn_dark.html */,
 				72C844D9214B50920078448C /* cn_light.html */,
 				E9385075C042AC240E36D35EBA28F5B7 /* CandyBull-Bridging-Header.h */,
-				73335AC821476AA700CEF254 /* CandyBull.entitlements */,
 				72C844D6214A3EFF0078448C /* en_dark.html */,
 				72C844DA214B50930078448C /* en_light.html */,
 			);
@@ -4009,6 +4010,7 @@
 		D76FD4AB2B1AA61D5AEAE8D2282BF35F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7392F289234CA2570007E882 /* CoreNFC.framework */,
 				7340C6BC233A027A004A0AAF /* web3swift.framework */,
 				7340C6B9233A0273004A0AAF /* Starscream.framework */,
 				7340C6B6233A024E004A0AAF /* MarqueeLabel.framework */,
@@ -5655,6 +5657,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5757,6 +5760,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -5931,6 +5935,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

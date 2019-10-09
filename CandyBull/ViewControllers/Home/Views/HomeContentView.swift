@@ -11,6 +11,8 @@ import UIKit
 class HomeContentView: UIView {
     struct Define {
         static let sectionHeaderHeight: Double = 73.0
+        static let TopGainerCount = 3
+
     }
 
     enum SortedByKindAction: String {
@@ -42,13 +44,14 @@ class HomeContentView: UIView {
         }
     }
 
+
     var viewType: ViewType = ViewType.homeContent {
         didSet {
             if self.viewType == .comprehensive {
                 self.tableView.isScrollEnabled = false
                 var buckets = MarketHelper.filterPopAssetsCurrency()
-                if buckets.count >= 6 {
-                    self.reloadData = Array(buckets[0..<6])
+                if buckets.count >= Define.TopGainerCount {
+                    self.reloadData = Array(buckets[0..<Define.TopGainerCount])
                 } else {
                     self.reloadData = buckets
                 }
@@ -191,7 +194,7 @@ class HomeContentView: UIView {
 extension HomeContentView: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.viewType == .comprehensive {
-            return 6
+            return Define.TopGainerCount
         }
         if let data = self.reloadData {
             return data.count

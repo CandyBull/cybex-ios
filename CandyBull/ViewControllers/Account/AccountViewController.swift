@@ -66,7 +66,7 @@ class AccountViewController: BaseViewController {
             accountContentView.headerView.coinAgeContainer.isHidden = true
         } else {
             getCoinAge()
-            accountContentView.headerView.coinAgeContainer.isHidden = false
+            accountContentView.headerView.coinAgeContainer.isHidden = true
             if let hash = UserManager.shared.avatarString {
                 let generator = IconGenerator(size: 168, hash: Data(hex: hash))
                 if let render = generator.render() {

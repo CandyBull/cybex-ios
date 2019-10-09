@@ -44,7 +44,7 @@ class AssetConfiguration {
         case ArenaBTC
 
         static var CoreToken: CybexAsset {
-            return .CYB
+            return .CBD
         }
 
         var id: String {

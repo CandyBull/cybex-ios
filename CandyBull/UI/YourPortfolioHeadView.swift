@@ -35,9 +35,10 @@ class YourPortfolioHeadView: UIView {
     }
 
     func setup() {
+
         memberLevel.localizedText = R.string.localizable.account_property.key.localizedContainer()
         if let balance = UserManager.shared.fullAccount.value?.balance, balance != 0 {
-            totalBalance.text = (balance / AssetConfiguration.shared.rmbOf(asset: .CYB)).formatCurrency(digitNum: 5)
+            totalBalance.text = (balance / AssetConfiguration.shared.rmbOf(asset: AssetConfiguration.CybexAsset.USDT)).formatCurrency(digitNum: 5)
             balanceRMB.text   = "≈¥" + balance.formatCurrency(digitNum: AppConfiguration.rmbPrecision)
         } else {
             totalBalance.text = "0.00000"

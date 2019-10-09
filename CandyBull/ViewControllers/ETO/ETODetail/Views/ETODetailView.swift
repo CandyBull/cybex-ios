@@ -79,14 +79,14 @@ class ETODetailView: CybexBaseView {
         switch style {
         case .normal:
             stateButton.titleColor = UIColor.white
-            stateButton.gradientStartColor = UIColor.peach
+            stateButton.gradientStartColor = UIColor.primary
             stateButton.gradient = nil
             stateButton.gradientEndColor = UIColor.maincolor
             stateButton.alpha = 1
             stateButton.isUserInteractionEnabled = true
         case .wait:
             stateButton.titleColor = UIColor.primary
-            stateButton.btn_borderColor = UIColor.peach
+            stateButton.btn_borderColor = UIColor.primary
             stateButton.btn_borderWidth = 1
             if ThemeManager.currentThemeIndex == 0 {
                 stateButton.gradientStartColor = UIColor.dark

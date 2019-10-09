@@ -75,7 +75,7 @@
 "account.title"                 = "账户";
 "account.yourPortfolio"         = "可用资产";
 "account.viewAll"               = "查看全部";
-"account.yourTotalBalance"      = "账户总余额(CBD):";
+"account.yourTotalBalance"      = "账户总余额(USDT):";
 "account.assetOperations"       = "其他资产";
 "account.basicMember"           = "普通会员";
 "account.superMember"           = "终生会员";
@@ -337,7 +337,7 @@
 "my_property" = "我的资产";
 "order_value" = "委单";
 "transfer" = "转账";
-"account_property" = "账户资产估值(CBD)";
+"account_property" = "账户资产估值(USDT)";
 "hello" = "您好，";
 "deposit_withdraw" = "充值提现";
 "frozen" = "冻结：";
