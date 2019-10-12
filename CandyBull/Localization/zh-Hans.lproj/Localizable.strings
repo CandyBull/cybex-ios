@@ -15,7 +15,7 @@
 "nav.setting" = "设置";
 "nav.trade"   = "交易";
 "nav.contest" = "大赛";
-"nav.eto" = "ETO";
+"nav.eto" = "打新";
 
 "home_blockchain" = "区块信息";
 
@@ -342,7 +342,7 @@
 "deposit_withdraw" = "充值提现";
 "frozen" = "冻结：";
 "get_white_list" = "获取白名单";
-"ETO_detail" = "ETO详情";
+"ETO_detail" = "五折打新详情";
 "project_intro" = "项目介绍";
 "project_website" = "项目官网";
 "user_agreement" = "《用户协议》";
@@ -418,7 +418,7 @@
 "eto_min_subscription" = "单笔最低限额";
 "eto_subscribed" = "已认购限额";
 "eto_available" = "可用余额 %@ %@";
-"eto_join" = "参与ETO";
+"eto_join" = "参与五折打新";
 "eto_total_remaining" = "本轮剩余额度";
 
 
@@ -428,9 +428,9 @@
 "eto_project_detail" = "项目详情：";
 
 "eto_share" = "分享";
-"eto_records" = "ETO记录";
+"eto_records" = "五折打新记录";
 "eto_record_receive" = "收到Token";
-"eto_record_send" = "参与ETO";
+"eto_record_send" = "参与五折打新";
 
 "eto_invalid_sub" = "无效认购";
 "eto_invalid_partly_sub" = "部分有效";
@@ -446,13 +446,13 @@
 "eto_project_time_comming" = "距离结束:";
 "eto_project_time_pre" = "距离开始:";
 
-"eto_submit_title" = "你将参与 %@ 的ETO";
+"eto_submit_title" = "你将参与 %@ 的五折打新";
 "eto_submit_check_error_1" = "余额不足";
 "eto_submit_check_error_2" = "超出单账号限额";
 "eto_submit_check_error_3" = "剩余可认购额度不足";
 "eto_submit_check_error_4" = "不可低于单笔最低限额";
 "eto_submit_check_error_5" = "认购金额为最小认购单位整数倍";
-"eto_submit_confirm" = "ETO确认";
+"eto_submit_confirm" = "五折打新确认";
 "eto_textfiled_placeholder" = "请输入认购数量";
 
 "eto_project_time_finish" = "完成时间：";
@@ -462,7 +462,7 @@
 "desposit_address" = "协议地址：";
 "eto_project_name" = "项目名称：";
 "eto_token_name" = "代币名称：";
-"eto_start_time" = "ETO时间：";
+"eto_start_time" = "五折打新时间：";
 "eto_end_time" = "结束时间：";
 "eto_start_at" = "开放交易时间：";
 "eto_token_releasing_time" = "发币时间：";
@@ -480,8 +480,8 @@
 "eto_project_reserve_now" = "立即预约";
 "eto_project_verifying" = "审核中";
 "eto_project_stop_reserve" = "停止预约";
-"eto_project_waiting" = "等待ETO开始";
-"eto_project_join" = "立即ETO";
+"eto_project_waiting" = "等待五折打新开始";
+"eto_project_join" = "立即五折打新";
 "eto_project_rejected" = "无参与资格";
 "eto_project_kyc" = "进行KYC";
 "eto_project_login" = "请登录后参与";

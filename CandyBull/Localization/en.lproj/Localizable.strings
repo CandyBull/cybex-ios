@@ -1,10 +1,10 @@
 /*
- Localizable.strings
- CandyBull
+  Localizable.strings
+  CandyBull
 
- Created by koofrank on 2018/3/12.
- Copyright © 2018年 CandyBull. All rights reserved.
- */
+  Created by koofrank on 2018/3/12.
+  Copyright © 2018年 CandyBull. All rights reserved.
+*/
 "" = "";
 "--" = "--";
 "nav.home" = "Home";
@@ -15,7 +15,7 @@
 "nav.setting" = "Settings";
 "nav.trade"   = "Exchange";
 "nav.contest" = "Contest";
-"nav.eto" = "ETO";
+"nav.eto" = "50% OFF";
 "home_blockchain" = "Blockchain";
 
 
@@ -362,7 +362,7 @@
 "deposit_withdraw" = "Deposit/Withdraw";
 "frozen" = "Frozen：";
 "get_white_list" = "Get Whitelist";
-"ETO_detail" = "ETO Details";
+"ETO_detail" = "50% OFF Details";
 "project_intro" = "Project Introduction";
 "project_website" = "Project Website";
 "user_agreement" = "《User Agreement》";
@@ -435,7 +435,7 @@
 
 "address_delete_confirm" = "CONFIRMATION";
 
-"hot_project" = "Popular ETOs";
+"hot_project" = "Popular 50% OFF";
 
 "eto_personal_cap" = "Personal Cap";
 "eto_subscription_unit" = "Subscription Unit";
@@ -448,13 +448,13 @@
 
 
 "eto_available" = "Available %@ %@";
-"eto_join" = "Join ETO";
+"eto_join" = "Join 50% OFF";
 "eto_project_detail" = "Project Details：";
 
 "eto_share" = "Share";
-"eto_records" = "ETO Records";
+"eto_records" = "50% OFF Records";
 "eto_record_receive" = "Receive Token";
-"eto_record_send" = "Join ETO";
+"eto_record_send" = "Join 50% OFF";
 
 "eto_invalid_sub" = "Invalid Subscription";
 "eto_invalid_partly_sub" = "Subscription partly valid";
@@ -478,7 +478,7 @@
 "desposit_address" = "Protocol Address：";
 "eto_project_name" = "Project Name：";
 "eto_token_name" = "Token Name：";
-"eto_start_time" = "ETO Time：";
+"eto_start_time" = "50% OFF Time：";
 "eto_end_time" = "End at：";
 "eto_start_at" = "Circulation on CandyBull Starts at：";
 "eto_token_releasing_time" = "Token Releasing Time：";
@@ -495,19 +495,19 @@
 "eto_project_reserve_now" = "Reserve Now";
 "eto_project_verifying" = "Verifying";
 "eto_project_stop_reserve" = "Stop Reserve";
-"eto_project_waiting" = "Waiting for ETO";
-"eto_project_join" = "Join ETO Now";
+"eto_project_waiting" = "Waiting for 50% OFF";
+"eto_project_join" = "Join 50% OFF Now";
 "eto_project_rejected" = "Not Qualified";
 "eto_project_kyc" = "KYC Verification";
 "eto_project_login" = "Login";
 
-"eto_submit_title" = "You will join in ETO of %@";
+"eto_submit_title" = "You will join in 50% OFF of %@";
 "eto_submit_check_error_1" = "Not enough";
 "eto_submit_check_error_2" = "beyond personal hard cap";
 "eto_submit_check_error_3" = "insufficient remaining quota";
 "eto_submit_check_error_4" = "must beyond minimum purchasing unit";
 "eto_submit_check_error_5" = "must purchase an integer multiple of minimum purchasing unit";
-"eto_submit_confirm" = "ETO Confirm";
+"eto_submit_confirm" = "50% OFF Confirm";
 
 
 "eto_transfer_title" = "Verifying";

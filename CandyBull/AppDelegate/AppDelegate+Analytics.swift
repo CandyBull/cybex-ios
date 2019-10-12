@@ -14,8 +14,8 @@ import Sentry
 import DoraemonKit
 #endif
 
-private let UMAppkey = "5b6bf4a8b27b0a3429000016"
-private let SentrySN = "http://856bdd62a8f740f4bfa233870e1632a0@120.27.16.142:9000/15"
+private let UMAppkey = "5d9fe8e6570df3745e000cb5"
+private let SentrySN = "http://1f4ab980480045ea9415711096079a1d@120.27.16.142:9000/20"
 
 extension AppDelegate {
     func setDoKit() {
