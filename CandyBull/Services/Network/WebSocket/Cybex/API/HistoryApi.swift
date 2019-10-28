@@ -11,8 +11,8 @@ import JSONRPCKit
 import SwiftyJSON
 
 enum HistoryCatogery: String {
-    case getMarketHistory
-    case getFillOrderHistory //逐笔成交单
+    case getMarketHistory //K线
+    case getFillOrderHistory //实时成交
 }
 
 struct AssetPairQueryParams {

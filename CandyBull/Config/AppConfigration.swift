@@ -159,6 +159,8 @@ extension AppConfiguration {
             OCOWebSocketService.Config.productURL = limitOrders.map({ URL(string: $0)! })
 
             ETOMGService.Config.productURL = URL(string: node.eto)!
+//            ETOMGService.Config.productURL = URL(string: "https://etoapi-pre.candybull.io/api")!
+
             let connected = CybexWebSocketService.shared.checkNetworConnected()
             if !connected {
                 CybexWebSocketService.shared.connect()
